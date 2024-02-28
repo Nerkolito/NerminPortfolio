@@ -1,0 +1,86 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh; /* Set the profile section height to 83% of the viewport height */
+    margin-bottom: 6rem; /* Add margin to the bottom of the profile section */
+  }
+  .about-containers {
+    flex-wrap: wrap; /* Allow flex items to wrap in the about containers */
+  }
+  #contact,
+  #projects {
+    height: fit-content; /* Set height to fit the content for contact and projects sections */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #hamburger-nav {
+    display: flex; /* Display hamburger navigation */
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem; /* Add top margin to experience and its details container */
+  }
+  #profile,
+  .section-container {
+    display: block; /* Set profile and section container to block display */
+  }
+  .arrow {
+    display: none; /* Hide arrows */
+  }
+  section,
+  .section-container {
+    height: fit-content; /* Set height to fit the content for sections and section containers */
+  }
+  section {
+    margin: 0 5%; /* Add left and right margin to sections */
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem; /* Center align and add margin to the bottom of the picture container */
+  }
+  .about-containers {
+    margin-top: 0; /* Remove top margin for about containers */
+  }
+
+  .nav-links-container {
+    flex-direction: row;
+    margin: 15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh; /* Set height for contact and footer to 40% of the viewport height */
+  }
+  #profile {
+    height: 80vh; /* Set the profile section height to 80% of the viewport height */
+    margin-bottom: 0; /* Remove margin from the bottom of the profile section */
+  }
+  article {
+    font-size: 1rem; /* Set font size for articles */
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem; /* Set height to fit content and add margin to the bottom for footer navigation */
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap; /* Allow flex items to wrap in various containers */
+  }
+  .contact-info-container {
+    display: flex;
+    margin: 10px; /* Add margin to the contact info container */
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem; /* Set font size for paragraphs in contact info container and navigation links */
+  }
+
+  .nav-links-container {
+    flex-direction: row;
+    margin: 15rem;
+  }
+}
